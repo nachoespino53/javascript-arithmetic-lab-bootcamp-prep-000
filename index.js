@@ -6,7 +6,7 @@ const inc = a => ++a;
 const dec = n => --n;
 const makeInt = n => {
   
-  return parseInt(n);
+  return parseInt(n, 10);
 }
 
 const preserveDecimal = n => {
